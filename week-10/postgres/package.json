@@ -1,0 +1,17 @@
+{
+  "name": "postgres-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsc -b && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/pg": "^8.11.0",
+    "dotenv": "^16.4.1",
+    "pg": "^8.11.3"
+  }
+}
